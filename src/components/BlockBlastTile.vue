@@ -41,7 +41,7 @@ const { tileType, hovered, hidden, draggable } = defineProps<{
 .blockblast-block > * {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.164);
+  background-color: rgba(0, 0, 0, 0.61);
 }
 
 .blockblast-block > .isTile {
@@ -54,17 +54,16 @@ const { tileType, hovered, hidden, draggable } = defineProps<{
   border-bottom: var(--blockblast-tile-border-thickness) solid rgba(0, 0, 0, 0.8);
 }
 
-/* #ffa8b8 cherry blossom pink
-##967AA1 mountbatten
-#8699B8 cool gray */
-
 .blockblast-block > .cherry-blossom-pink {
   background-color: #ffa8b8;
 }
+
 .blockblast-block > .mountbatten {
   background-color: #967AA1;
 }
+
 .blockblast-block > .cool-gray {
   background-color: #8699B8;
 }
+
 </style>
