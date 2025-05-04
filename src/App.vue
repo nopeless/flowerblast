@@ -17,9 +17,6 @@ html, body {
 html {
   background-color: var(--background);
   height: 100dvh;
-  min-height: 100dvh;
-  min-width: 100dvw;
-  overflow: hidden;
 }
 
 * {
